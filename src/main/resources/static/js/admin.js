@@ -187,7 +187,7 @@ function renderDashboardWidgets(allLoans, overdueLoans) {
             const memberName = l.member ? `${l.member.firstName} ${l.member.lastName}` : "Bilinmeyen Üye";
             const bookTitle = l.book ? l.book.title : "-";
             const dueDate = new Date(l.loanDate);
-            dueDate.setDate(dueDate.getDate() + 1);
+            dueDate.setDate(dueDate.getDate() + 2);
             const diffTime = Math.abs(new Date() - dueDate);
             const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
@@ -588,7 +588,7 @@ function runLoanFilters() {
         if (statusFilter !== "all") {
             const isReturned = l.returnDate !== null;
             const dueDate = new Date(l.loanDate);
-            dueDate.setDate(dueDate.getDate() + 1);
+            dueDate.setDate(dueDate.getDate() + 2);
             const isOverdue = !isReturned && new Date() > dueDate;
 
             if (statusFilter === "returned") matchesStatus = isReturned;
@@ -613,7 +613,7 @@ function renderLoans(loans) {
             statusHtml = `<span style="color:#10b981">Teslim Edildi</span>`;
         } else {
             const dueDate = new Date(l.loanDate);
-            dueDate.setDate(dueDate.getDate() + 1); // 1 day rule
+            dueDate.setDate(dueDate.getDate() + 2); // 2 day rule
             const isOverdue = new Date() > dueDate;
             statusHtml = isOverdue
                 ? `<span style="color:#ef4444; font-weight:bold">Gecikmiş!</span>`

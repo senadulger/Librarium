@@ -60,7 +60,7 @@ public class RecommendationService {
             }
         }
 
-        // 3. EKSİK TAMAMLAMA (Her zaman 4'e tamamla)
+        // EKSİK TAMAMLAMA (Her zaman 4'e tamamla)
         if (finalRecommendations.size() < 4) {
             int needed = 4 - finalRecommendations.size();
 
@@ -71,7 +71,7 @@ public class RecommendationService {
             List<Book> randomFill;
             if (excluded.isEmpty()) {
                 // Hiçbir şey okunmamış ve önerilmemişse direkt rastgele al
-                randomFill = bookRepository.findRandomBooks(); // Default 4 returns
+                randomFill = bookRepository.findRandomBooks();
             } else {
                 randomFill = bookRepository.findRandomBooksExcept(excluded, needed);
             }

@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-
+import com.library.library_system.dto.LoanRequest;
 import com.library.library_system.model.Book;
 import com.library.library_system.model.Branch;
 import com.library.library_system.model.Inventory;
@@ -17,7 +17,6 @@ import com.library.library_system.repository.BranchRepository;
 import com.library.library_system.repository.InventoryRepository;
 import com.library.library_system.repository.LoanRepository;
 import com.library.library_system.repository.MemberRepository;
-import com.library.library_system.dto.LoanRequest;
 
 @Service
 public class LoanService {
@@ -156,7 +155,7 @@ public class LoanService {
             }
         }
         
-        // 5. Kitabı tekrar 'Müsait' (available) yap
+        // Kitabı tekrar 'Müsait' (available) yap
         // (Eğer tüm stoklar bitince false yaptıysak, şimdi true yapmalıyız)
         book.setAvailable(true);
         bookRepository.save(book);
