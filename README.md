@@ -11,6 +11,7 @@ Bu proje, "Java Programlama ve Veritabanı Yönetim Sistemleri" dersleri için f
 *   **Katalog Yönetimi:** Kitap ekleme, güncelleme, silme ve kategori/yazar bazlı filtreleme.
 *   **Stok Takibi:** Şube bazlı stok ve envanter yönetimi.
 *   **Ödünç Sistemi:** Ödünç alma, iade etme ve otomatik ceza hesaplama.
+*   **Öneri Sistemi:** Kullanıcının geçmiş ödünç alma verileri analiz edilerek, ilgili kategorilerden kitap önerileri sunulmaktadır.
 *   **Dashboard:** Sistem istatistiklerinin görsel olarak sunulduğu yönetim paneli.
 
 ## 3. Teknoloji Yığını
@@ -66,12 +67,12 @@ Uygulamanın temel özelliklerini ve genel işleyişini görmek için aşağıda
 https://github.com/user-attachments/assets/29b9e86a-5ff0-4c78-8a89-daa0df11fa11
 
 ## 7. Proje Raporu
-Teknik detaylar, diyagramlar (ER, Class vb.) ve ekran görüntülerini içeren detaylı inceleme için depodaki **Rapor.pdf** dosyasına göz atabilirsiniz.
+Teknik detaylar, diyagramlar (ER, Class vb.) ve ekran görüntülerini içeren detaylı inceleme için depodaki [Rapor.pdf](Rapor.pdf) dosyasına göz atabilirsiniz.
 
 ## 8. Yazarlar
 
 | Üye | LinkedIn |
 | :--- | :--- |
-| [Irmak Yılmaz](https://github.com/Irmakyil) | <a href="https://www.linkedin.com/in/yilmazirmak/" target="_blank">LinkedIn</a> |
-| [Sena Nur Dülger](https://github.com/senadulger) | <a href="https://www.linkedin.com/in/senadulger/" target="_blank">LinkedIn</a> |
-| [Zehra Gül Özdemir](https://github.com/zehrose) | <a href="https://www.linkedin.com/in/zehra-gul-ozdemir/" target="_blank">LinkedIn</a> |
+| [Irmak Yılmaz](https://github.com/Irmakyil) | [<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="20"/>](https://www.linkedin.com/in/yilmazirmak/) |
+| [Sena Nur Dülger](https://github.com/senadulger) | [<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="20"/>](https://www.linkedin.com/in/senadulger/) |
+| [Zehra Gül Özdemir](https://github.com/zehrose) | [<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="20"/>](https://www.linkedin.com/in/zehra-gul-ozdemir/) |
