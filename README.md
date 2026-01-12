@@ -1,7 +1,7 @@
 # Librarium – Kütüphane Yönetim Sistemi
 
 ## 1. Proje Hakkında
-Bu proje, "Yazılım Geliştirme I" dersi için final ödevi olarak geliştirilmiştir. Temel amaç; veritabanı yönetimi, kimlik doğrulama, yetkilendirme ve tam kapsamlı (full-stack) web geliştirme becerilerini **Java Spring Boot** ve modern web teknolojileri kullanarak pekiştirmektir.
+Bu proje, "Java Programlama ve Veritabanı Yönetim Sistemleri" dersleri için final ödevi olarak geliştirilmiştir. Temel amaç; veritabanı yönetimi, kimlik doğrulama, yetkilendirme ve tam kapsamlı (full-stack) web geliştirme becerilerini **Java Spring Boot** ve modern web teknolojileri kullanarak pekiştirmektir.
 
 ## 2. Özellikler
 *   **Kimlik Doğrulama & Yetkilendirme:** Güvenli giriş ve kayıt sistemi.
